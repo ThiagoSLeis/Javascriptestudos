@@ -39,3 +39,12 @@ const maiorIdade = idades.filter((idade) => {
     }
 })
 console.log(maiorIdade)
+
+// Simulando carrinho de compras
+
+const precoCarrinho = [ 2.00 , 5.00, 10.00 ]
+let somaPreco = 0
+for (precoUn of precoCarrinho){
+    somaPreco += precoUn
+}
+console.log(somaPreco -(somaPreco * 0.2))
